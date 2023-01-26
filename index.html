@@ -15,13 +15,19 @@
     />
     <title>Frontend Mentor | Skilled e-learning landing page</title>
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <nav class="navbar">
+      <nav class="navbar-and-footer-styles navbar">
         <ul>
-          <li>skilled</li>
-          <li>Get Started</li>
+          <li class="skilled-text">skilled</li>
+          <li class="navbar-btn btn">Get Started</li>
         </ul>
       </nav>
       <section class="hero-section">
@@ -30,7 +36,7 @@
           Our modern courses across a range of in-demand skills will give you
           the knowledge you need to live the life you want.
         </p>
-        <button class="cta-btn">Get Started</button>
+        <button class="cta-btn btn">Get Started</button>
         <picture>
           <source
             media="(min-width: 768px)"
@@ -115,10 +121,10 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="navbar-and-footer-styles">
       <ul>
-        <li>skilled</li>
-        <li>Get Started</li>
+        <li class="skilled-text">skilled</li>
+        <li class="btn">Get Started</li>
       </ul>
     </footer>
   </body>

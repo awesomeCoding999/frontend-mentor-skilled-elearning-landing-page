@@ -15,6 +15,50 @@
   --white: #ffffff;
 }
 
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn {
+  border: none;
+  border-radius: 28px;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 9px 24px 11px;
+  cursor: pointer;
+}
+
+.navbar {
+  margin-top: 1rem;
+  margin-bottom: 2.375rem;
+}
+
+.navbar-and-footer-styles ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-and-footer-styles ul li {
+  list-style-type: none;
+}
+
+.skilled-text {
+  font-weight: 800;
+  font-size: 1.75rem;
+}
+
+.navbar-btn {
+  color: var(--white);
+  background: var(--navy-blue);
+}
+
+.navbar-btn:hover {
+  background-color: var(--greyish-purple);
+}
+
 /* 
 
 orange linear gradient
