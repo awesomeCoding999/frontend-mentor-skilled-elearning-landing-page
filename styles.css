@@ -34,11 +34,13 @@ body {
 .navbar {
   margin-top: 1rem;
   margin-bottom: 2.375rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .navbar-and-footer-styles ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -61,7 +63,8 @@ body {
 
 .hero-section {
   max-width: 343px;
-  margin-left: 16px;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .title {
@@ -86,22 +89,98 @@ body {
   padding: 15px 37px 15px 38px;
 }
 
+.cta-btn:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+
 .hero-mobile-img {
   max-width: 327px;
   margin-top: 2.875rem;
   margin-bottom: 4.125rem;
 }
 
-/* 
+.course-card-container {
+  background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-orange linear gradient
-background: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%); 
+.course-intro-card {
+  background: linear-gradient(180deg, #ff6f48 0.04%, #f02aa6 100%);
+  color: var(--white);
+  line-height: 32px;
+  font-weight: 800;
+  font-size: 1.5rem;
+  padding: 24px 29px 32px 28px;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  max-width: 343px;
+}
 
-*/
+.course-card {
+  background-color: var(--white);
+  min-width: 343px;
+  box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+  border-radius: 10px;
+  padding: 1.5rem 0 2rem 1.75rem;
+  margin-bottom: 2.5rem;
+  position: relative;
+  max-width: 343px;
+}
 
-/*
+.course-icon {
+  position: absolute;
+  top: -20px;
+}
 
-purple link linear gradient 
-background: linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%); 
+.course-title {
+  font-weight: 800;
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
 
-*/
+.course-description {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 26px;
+  color: var(--dark-grey);
+  margin-bottom: 1.5rem;
+}
+
+.get-started-link {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--hot-pink);
+  text-decoration: none;
+}
+
+.get-started-link:hover {
+  color: var(--light-pink);
+}
+
+.footer {
+  background-color: var(--navy-blue);
+  padding: 43px 16px 42px;
+  color: var(--white);
+}
+
+.footer-btn {
+  background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+}
+
+.footer-btn:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+}
