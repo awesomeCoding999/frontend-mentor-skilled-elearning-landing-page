@@ -26,6 +26,7 @@ body {
   border-radius: 28px;
   font-size: 1rem;
   font-weight: 700;
+  color: var(--white);
   padding: 9px 24px 11px;
   cursor: pointer;
 }
@@ -51,12 +52,44 @@ body {
 }
 
 .navbar-btn {
-  color: var(--white);
   background: var(--navy-blue);
 }
 
 .navbar-btn:hover {
   background-color: var(--greyish-purple);
+}
+
+.hero-section {
+  max-width: 343px;
+  margin-left: 16px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 50.4px;
+  margin-bottom: 1.625rem;
+}
+
+.hero-paragraph {
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  color: var(--dark-grey);
+  line-height: 26px;
+  font-size: 1rem;
+}
+
+.cta-btn {
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 31.5px;
+  max-width: 176px;
+  padding: 15px 37px 15px 38px;
+}
+
+.hero-mobile-img {
+  max-width: 327px;
+  margin-top: 2.875rem;
+  margin-bottom: 4.125rem;
 }
 
 /* 
