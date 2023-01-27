@@ -39,8 +39,7 @@ body {
 }
 
 .navbar {
-  margin-top: 1rem;
-  margin-bottom: 2.375rem;
+  margin: 1rem 1rem 2.375rem;
 }
 
 .navbar-and-footer-styles ul {
