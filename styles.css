@@ -31,11 +31,16 @@ body {
   cursor: pointer;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .navbar {
   margin-top: 1rem;
   margin-bottom: 2.375rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
 
 .navbar-and-footer-styles ul {
@@ -63,8 +68,6 @@ body {
 
 .hero-section {
   max-width: 343px;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
 
 .title {
@@ -86,7 +89,7 @@ body {
   background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
   border-radius: 31.5px;
   max-width: 176px;
-  padding: 15px 37px 15px 38px;
+  padding: 0.938rem 2.313rem 0.938rem 2.313rem;
 }
 
 .cta-btn:hover {
@@ -106,10 +109,6 @@ body {
 
 .course-card-container {
   background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .course-intro-card {
@@ -118,7 +117,7 @@ body {
   line-height: 32px;
   font-weight: 800;
   font-size: 1.5rem;
-  padding: 24px 29px 32px 28px;
+  padding: 1.5rem 1.813rem 2rem 1.75rem;
   border-radius: 10px;
   margin-bottom: 2rem;
   max-width: 343px;
@@ -126,7 +125,6 @@ body {
 
 .course-card {
   background-color: var(--white);
-  min-width: 343px;
   box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
   border-radius: 10px;
   padding: 1.5rem 0 2rem 1.75rem;
@@ -168,7 +166,7 @@ body {
 
 .footer {
   background-color: var(--navy-blue);
-  padding: 43px 16px 42px;
+  padding: 2.688rem 1rem 2.625rem;
   color: var(--white);
 }
 
