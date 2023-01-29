@@ -100,8 +100,8 @@ body {
     linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
 }
 
-.hero-mobile-img {
-  max-width: 327px;
+.hero-img {
+  width: 327px;
   margin-top: 2.875rem;
   margin-bottom: 4.125rem;
 }
@@ -183,6 +183,26 @@ body {
 }
 
 @media (min-width: 768px) {
+  .navbar {
+    margin: 1rem 1.5rem 2.375rem;
+  }
+
+  header.flex-container {
+    position: relative;
+    margin: 3.125rem 0 4.5rem;
+  }
+
+  .hero-section {
+    margin-left: -100px;
+  }
+
+  .hero-img {
+    width: 500px;
+    position: absolute;
+    top: -200px;
+    right: -200px;
+  }
+
   .flex-container {
     flex-direction: row;
     flex-wrap: wrap;
