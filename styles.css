@@ -188,4 +188,8 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
   }
+
+  .course-intro-card {
+    height: 240px;
+  }
 }
