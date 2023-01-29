@@ -106,7 +106,7 @@ body {
   margin-bottom: 4.125rem;
 }
 
-.course-card-container {
+main {
   background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
 }
 
@@ -211,5 +211,25 @@ body {
 
   .course-intro-card {
     height: 240px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .course-card-container.flex-container {
+    margin: auto;
+    max-width: 1100px;
+  }
+  .course-card,
+  .course-intro-card {
+    flex: 0 0 33.333333%;
+  }
+
+  .course-intro-card {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+
+  .course-card {
+    line-height: 28px;
   }
 }
