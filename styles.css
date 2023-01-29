@@ -215,9 +215,27 @@ main {
 }
 
 @media (min-width: 1024px) {
+  .navbar {
+    margin: 1rem 2rem 5rem;
+  }
+
+  .navbar-and-footer-styles ul {
+    margin: 0 3rem;
+  }
+
+  header.flex-container {
+    margin: 3.125rem auto 10rem;
+  }
+
+  .hero-img {
+    width: 600px;
+    top: -250px;
+    right: -250px;
+  }
+
   .course-card-container.flex-container {
-    margin: auto;
-    max-width: 1100px;
+    margin: 0 auto;
+    max-width: 1200px;
   }
   .course-card,
   .course-intro-card {
